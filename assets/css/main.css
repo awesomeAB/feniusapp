@@ -1,0 +1,44 @@
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+section {
+    padding-top: 2em;
+    padding-left: 4em;
+    padding-right: 4em; 
+}
+
+h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.subheading {
+    font-size: 1.1em;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+.page-enter-active {
+    animation: bounce-in .8s;
+  }
+.page-leave-active {
+    animation: bounce-out .5s;
+  }
+@keyframes bounce-in {
+    0% { transform: scale(.9); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+@keyframes bounce-out {
+    0% { transform: scale(1); opacity: 1; }
+    100% { transform: scale(.9); opacity: 0; }
+  }
